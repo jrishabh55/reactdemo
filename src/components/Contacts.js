@@ -6,11 +6,11 @@ export class Contacts extends Component {
         return (
             <div className="row justify-content-center">
                 <header className="col-11 my-4">
-                    <div className="row">
-                        <div className="col-8">
+                    <div className="row justify-content-between">
+                        <div className="col">
                             <h3>All Contacts <i className="fa fa-caret-down" aria-hidden="true"></i></h3>
                         </div>
-                        <div className="col">
+                        <div className="col text-right">
                             <button className="btn btn-sm bg-danger ml-1"><i class="fas fa-plus ml-1"></i> New</button>
                             <button className="btn btn-sm bg-default ml-1"><i class="fa fa-cog"></i></button>
                             <button className="btn btn-sm bg-default ml-1"><i class="fa fa-bars ml-1"></i></button>
